@@ -1,1 +1,1 @@
-# delicracy-prediction-market
+# delicracy-PM

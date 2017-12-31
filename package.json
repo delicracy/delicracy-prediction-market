@@ -1,0 +1,7 @@
+{
+  "name": "delicracy",
+  "private": true,
+  "dependencies": {
+    "noto-sans-kr": "^0.1.1"
+  }
+}
