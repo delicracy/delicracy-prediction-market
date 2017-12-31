@@ -1,0 +1,20 @@
+# Add configuration values here, as shown below.
+#
+# pusher_app_id: "2954"
+# pusher_key: 7381a978f7dd7f9a1117
+# pusher_secret: abdc3b896a0ffb85d373
+# stripe_api_key: sk_test_2J0l093xOyW72XUYJHE4Dv2r
+# stripe_publishable_key: pk_test_ro9jV5SNwGb1yYlQfzG17LHK
+#
+# production:
+#   stripe_api_key: sk_live_EeHnL644i6zo4Iyq4v1KdV9H
+#   stripe_publishable_key: pk_live_9lcthxpSIHbGwmdO941O1XVU
+staging:
+  DATABASE_USERNAME: deployer
+  DATABASE_PASSWORD: udpgwyvjdjt
+  SECRET_KEY_BASE: 8caebc6f659c087806becc5221cbe79dd035cb96f25f054ec3368203d4ea50a568337515e28c7e279b7caa4082d46e89b78638df17e534060d39cf99abce063c
+
+production:
+  DATABASE_USERNAME: deployer
+  DATABASE_PASSWORD: udpgwyvjdjt
+  SECRET_KEY_BASE: 189dc70c15bef279f18ca4785f2e914fd1618888cc153d229ab5bd8bbed440806653e25284efd283d81331a012e8fe8acad62b2276e6314ebabd04b4fa5734f8

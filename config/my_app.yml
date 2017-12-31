@@ -1,0 +1,18 @@
+COMMON: &COMMON
+  signup_points: 10_000
+  initial_lot_per_lane: 1000
+  deposit_points: 2000
+  price_scale_number: 1000
+  transaction_fee: 0.01
+  category: [Health & Life, Policy, Products, Sports, Entertainment, Tech]
+  chat_domain: "http://chat.delicracy.com"
+  pm_domain: "http://dev.delicracy.com"
+
+development:
+  <<: *COMMON
+
+test:
+  <<: *COMMON
+
+production:
+  <<: *COMMON
